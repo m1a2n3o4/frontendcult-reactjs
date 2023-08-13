@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        HTML - Forms
+             - Label
+              Forms Attributes
+             -> 
+                (Action, Method : post/get, 
+
+             -> Input type Attributes
+                 (Name,  ID, value, Placeholder, required, readonly, auto-focus)
+                 Ctrl+K+C -> Multiline Commnet.
+                 Ctrl+K+u -> Multiline uncommenting.
+    -->
+  
+    <form action="savedata.php" method="get">
+         <p><input type="text" name="fullname" id="fullname" value="abcd" placeholder="Full Name" readonly></p>
+        <p><input type="number" name="mobilenumber" id="mobilenumber" value="" placeholder="Mobile number"></p>
+        <p><input type="email" name="inputemail" id="inputemail" value="" placeholder="EMail"></p>
+        <p>MAle  <input type="radio" name="gender" id="male" value="male">
+            Female  <input type="radio" name="gender" id="male" value="female"></p>
+        <p>Education:
+            <select name="education" disabled>
+                <option value="10th">10TH</option>
+                <option value="inter">Inter</option>
+                <option value="b.com">B.</option>
+                <option value="b.tech">B.</option>
+            </select>
+        </p> 
+
+        <p><input type="text" name="username" id="username" placeholder="User Name"></p>
+        <p><input type="text" name="password" id="paswword" placeholder="password" ></p>
+        
+        <p><input type="submit" value="Login"/></p>
+    </form>
+    
+</body>
+</html>

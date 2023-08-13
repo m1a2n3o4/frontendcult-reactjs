@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(51 53 69);
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(110 119 198);
+    float: left;
+    width: 25%;
+    height: 350px;
+}
+
+article {
+    float: left;
+    background-color: bisque;
+    width: 75%;
+    height: 350px;
+    padding: 30px;
+}
+footer {
+    background-color: rgb(51 53 69);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.mybutton {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%
+    }
+
+    nav {
+        height: auto;
+    }
+
+    li {
+        display: inline;
+    }
+}
