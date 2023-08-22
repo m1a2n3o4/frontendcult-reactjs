@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <style>
+        /* * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        } */
+        .one {
+            background-color: brown;
+            height: auto;
+
+            /* padding-top: 50px;
+            padding-left: 30px;
+            padding-bottom: 25px;
+            padding-right: 28px; */
+
+            /* padding: 50px 28px 25px 30px; */
+
+            /* padding: 50px; */
+
+            /* padding: 20px 30px; */
+
+            padding: 10px 20px 30px;
+
+
+            /* margin-top: 30px;
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-bottom: 30px; */
+
+            /* margin: 30px 25px 45px 15px; */
+            margin: 25px 30px;
+
+            /* border-width: 3px;
+            border-style: solid;
+            border-color: blue; */
+
+            border: solid 3px blue;
+
+            
+        }
+    
+        .onepx {
+            height: 1px;
+            color: red;
+            margin-left: 100px;
+        }
+
+        h2 {
+            border-width: 10px;
+            border-color: brown;
+            border-style: solid;
+            text-align: center;
+        }
+
+         .full {
+            width: 100%;
+            height: 200px;
+            border-width: 1px;
+            border-style:double;
+            border-color: orange; 
+            border: none;
+            margin-top: 20px;
+         }
+        
+         .my-input {
+            width: 60%;
+            height: 40px;
+            border-style:dotted;
+            border-width: 3px;
+            border-color: orange;
+            border-radius: 1px;
+            padding: 10px;
+         }
+
+         .my-button {
+            height: 60px;
+            width: 20%;
+            background-color: rgb(35, 59, 193);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+
+         }
+    </style>
+</head>
+<body>
+    <!--
+        Short hand property:
+        Order(clock wise) : top - right - bottom- left;
+        HOME WORk
+    -->
+    <input type="text" class="my-input" id="name" name="name" placeholder="Locateme"/> <br> <br><br><br><br>
+    <input type="button" class="my-button" value="Book Now">
+    <div class="onepx">.</div>
+    <div class="one">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, autem sequi earum dolorum deserunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, velit. Neque aperiam consequatur autem eius dolorem voluptatem fugiat tempore obcaecati, odio, dolorum dolor unde, error deleniti! Perspiciatis asperiores quia voluptate! quisquam est iusto laudantium ex? Explicabo, atque cumque enim perferendis doloremque fugiat laborum illo corrupti dolor.  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur explicabo repudiandae dolorem nobis perferendis necessitatibus. Nostrum doloribus sapiente ex, facere voluptate accusamus est nisi maxime cumque ullam error corporis quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nisi exercitationem ad quaerat magnam ea rem. Porro explicabo doloremque obcaecati ipsum veniam dolor,Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est dolorum, delectus cumque quas laborum debitis fugiat, fuga ab quaerat illum ut asperiores provident inventore soluta non architecto, numquam eligendi.distinctio incidunt. Velit laborum facere alias eius?
+    </div>
+
+    <h2>h2 conmtent</h2>
+
+    <div class="full">
+        all products
+    </div>
+    <div class="full">
+        all products2
+    </div>
+
+    <input type="text" class="my-input" id="name" name="name" placeholder="Locateme"/>
+</body>
+</html>

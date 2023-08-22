@@ -1,0 +1,231 @@
+[
+    {
+        "articleID": "3000 943 008",
+        "name": "Clutch Kit DCT",
+        "dataType": "opc_article",
+        "brandID": 32,
+        "brandName": "SACHS",
+        "articleStatus": {
+            "status": 1,
+            "packingUnit": "1"
+        },
+        "articleImageMedias": [
+            {
+                "mediaID": 3228710,
+                "mediaTypeID": 5,
+                "fileName": "00323000943008",
+                "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00323000943008&typeID=5",
+                "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00323000943008&typeID=5&thumbnail=true",
+                "documentTypeId": 1,
+                "size": null
+            },
+            {
+                "mediaID": 3228711,
+                "mediaTypeID": 5,
+                "fileName": "00323000943008_2",
+                "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00323000943008_2&typeID=5",
+                "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00323000943008_2&typeID=5&thumbnail=true",
+                "documentTypeId": 1,
+                "size": null
+            }
+        ]
+    },
+    {
+        "articleID": "29515 02",
+        "name": "Link/Coupling Rod, stabiliser bar",
+        "dataType": "opc_article",
+        "brandID": 35,
+        "brandName": "LEMFÖRDER",
+        "articleStatus": {
+            "status": 1,
+            "packingUnit": "1"
+        },
+        "articleImageMedias": [
+            {
+                "mediaID": 3530802,
+                "mediaTypeID": 5,
+                "fileName": "00352951502",
+                "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00352951502&typeID=5",
+                "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00352951502&typeID=5&thumbnail=true",
+                "documentTypeId": 1,
+                "size": null
+            }
+        ]
+    },
+    {
+        "articleID": "31038 01",
+        "name": "Suspension Strut Support Mount",
+        "dataType": "opc_article",
+        "brandID": 35,
+        "brandName": "LEMFÖRDER",
+        "articleStatus": {
+            "status": 1,
+            "packingUnit": "1"
+        },
+        "articleImageMedias": [
+            {
+                "mediaID": 3525744,
+                "mediaTypeID": 5,
+                "fileName": "00353103801",
+                "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353103801&typeID=5",
+                "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353103801&typeID=5&thumbnail=true",
+                "documentTypeId": 1,
+                "size": null
+            }
+        ]
+    },
+    {
+        "articleID": "31275 01",
+        "name": "Mounting, automatic transmission",
+        "dataType": "opc_article",
+        "brandID": 35,
+        "brandName": "LEMFÖRDER",
+        "articleStatus": {
+            "status": 1,
+            "packingUnit": "1"
+        },
+        "articleImageMedias": [
+            {
+                "mediaID": 3525859,
+                "mediaTypeID": 5,
+                "fileName": "00353127501",
+                "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353127501&typeID=5",
+                "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353127501&typeID=5&thumbnail=true",
+                "documentTypeId": 1,
+                "size": null
+            }
+        ]
+    },
+    {
+        "articleID": "33760 01",
+        "name": "Mounting, engine",
+        "dataType": "opc_article",
+        "brandID": 35,
+        "brandName": "LEMFÖRDER",
+        "articleStatus": {
+            "status": 1,
+            "packingUnit": "1"
+        },
+        "articleImageMedias": [
+            {
+                "mediaID": 3528804,
+                "mediaTypeID": 5,
+                "fileName": "00353376001",
+                "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353376001&typeID=5",
+                "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353376001&typeID=5&thumbnail=true",
+                "documentTypeId": 1,
+                "size": null
+            }
+        ]
+    },
+    {
+        "articleID": "38088 01",
+        "name": "Mounting, engine",
+        "dataType": "opc_article",
+        "brandID": 35,
+        "brandName": "LEMFÖRDER",
+        "articleStatus": {
+            "status": 1,
+            "packingUnit": "1"
+        },
+        "articleImageMedias": [
+            {
+                "mediaID": 3533081,
+                "mediaTypeID": 5,
+                "fileName": "00353808801",
+                "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353808801&typeID=5",
+                "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353808801&typeID=5&thumbnail=true",
+                "documentTypeId": 1,
+                "size": null
+            }
+        ]
+    },
+    {
+        "articleID": "39741 01",
+        "name": "Mounting, engine",
+        "dataType": "opc_article",
+        "brandID": 35,
+        "brandName": "LEMFÖRDER",
+        "articleStatus": {
+            "status": 1,
+            "packingUnit": "1"
+        },
+        "articleImageMedias": [
+            {
+                "mediaID": 3535316,
+                "mediaTypeID": 5,
+                "fileName": "00353974101",
+                "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353974101&typeID=5",
+                "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353974101&typeID=5&thumbnail=true",
+                "documentTypeId": 1,
+                "size": null
+            }
+        ]
+    },
+    {
+        "articleID": "39742 01",
+        "name": "Mounting, engine",
+        "dataType": "opc_article",
+        "brandID": 35,
+        "brandName": "LEMFÖRDER",
+        "articleStatus": {
+            "status": 1,
+            "packingUnit": "1"
+        },
+        "articleImageMedias": [
+            {
+                "mediaID": 3535783,
+                "mediaTypeID": 5,
+                "fileName": "00353974201",
+                "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353974201&typeID=5",
+                "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353974201&typeID=5&thumbnail=true",
+                "documentTypeId": 1,
+                "size": null
+            }
+        ]
+    },
+    {
+        "articleID": "39745 01",
+        "name": "Mounting, engine",
+        "dataType": "opc_article",
+        "brandID": 35,
+        "brandName": "LEMFÖRDER",
+        "articleStatus": {
+            "status": 1,
+            "packingUnit": "1"
+        },
+        "articleImageMedias": [
+            {
+                "mediaID": 3535317,
+                "mediaTypeID": 5,
+                "fileName": "00353974501",
+                "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353974501&typeID=5",
+                "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353974501&typeID=5&thumbnail=true",
+                "documentTypeId": 1,
+                "size": null
+            }
+        ]
+    },
+    {
+        "articleID": "39751 01",
+        "name": "Mounting, transfer case",
+        "dataType": "opc_article",
+        "brandID": 35,
+        "brandName": "LEMFÖRDER",
+        "articleStatus": {
+            "status": 1,
+            "packingUnit": "1"
+        },
+        "articleImageMedias": [
+            {
+                "mediaID": 3535340,
+                "mediaTypeID": 5,
+                "fileName": "00353975101",
+                "url": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353975101&typeID=5",
+                "thumbnailUrl": "https://aftermarket.zf.com/app/controller/opc/getMedia?fileName=00353975101&typeID=5&thumbnail=true",
+                "documentTypeId": 1,
+                "size": null
+            }
+        ]
+    }
+]
