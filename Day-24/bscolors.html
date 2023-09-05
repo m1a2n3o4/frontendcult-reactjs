@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!----
+        primary, scoundary, danger, warning, success, 
+        brark, white, black, light, 
+
+        -> Text, Background
+        -> Buttons.
+        -> Tables.
+        -> Alerts.
+        -> Spinners/Loader.
+    -->
+<div class="container-fluid">
+        <p class="text-primary">Hello all. </p>
+        <p class="text-danger">Hello all. </p>
+        <p class="text-warning">Hello all. </p>
+        <p class="text-success">Hello all. </p>
+
+        <div class="bg-primary">
+            some text
+        </div>
+        <div class="bg-danger">
+            some text
+        </div>
+        <div class="bg-warning">
+            some text
+        </div>
+        <div class="bg-primary">
+            some text
+        </div>
+        <div class="bg-success">
+            some text
+        </div>
+
+        <!-- BS - Buttons-->
+        <div class="bs">
+            <button class="btn btn-primary">Submit</button>
+            <button class="btn btn-danger">Book Now</button>
+            <button class="btn btn-warning">Pay later</button>
+            <button class="btn btn-dark">Checkout</button>
+            <button class="btn btn-link">Go to Cart</button>
+        </div>
+
+        <!-- BS - Buttons-outline-->
+        <div class="bs">
+            <button class="btn btn-outline-primary btn-block">Submit</button>
+            <button class="btn btn-outline-danger">Book Now</button>
+            <button class="btn btn-outline-warning">Pay later</button>
+            <button class="btn btn-outline-dark">Checkout</button>
+            <button class="btn btn-outline-link">Go to Cart</button>
+        </div>
+
+         <!-- BS - Tables-->
+         <table class="table table-striped table-bordered table-hover table-dark">
+            <tr>
+                <th>Movie name</th>
+                <th>Movie Director</th>
+                <th>Movie Hero</th>
+            </tr>
+            <tr>
+                <td>Jailer</td>
+                <td>Nelson</td>
+                <td>Rajini Sir</td>
+            </tr>
+            <tr class="table-primary">
+                <td>Vikram</td>
+                <td>Lokesh</td>
+                <td>KamalHason Sir</td>
+            </tr>
+            <tr>
+                <td>Leo</td>
+                <td>Lokesh kanakraj</td>
+                <td>VJ</td>
+            </tr>
+            <tr>
+                <td>Kaidhi</td>
+                <td>Lokesh kanakraj</td>
+                <td>Kaarthi</td>
+            </tr>
+         </table>
+
+         <!-- BS - Alerts-->
+         <div class="alert alert-primary alert-dismissible fade show">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <p>you are logged to the portal successfully!</p>
+         </div>
+         <div class="alert alert-danger alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <p>Please enter correct password.</p>
+         </div>
+         <div class="alert alert-warning alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <p>you alredy ebtered password 2 times.</p>
+         </div>
+         <div class="alert alert-success alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <p>user/pass is correct.<a href="for.html">forgotpassword</a></p>
+         </div>
+
+         <!--Bs - Spiner/Loader-->
+         <div class="spinner-border"></div>
+         <div class="spinner-border text-danger"></div>
+         <div class="spinner-border text-primary"></div>
+         <div class="spinner-border text-dark"></div>
+         <div class="spinner-grow text-success"></div>
+         <div class="spinner-grow"></div>
+         <div class="spinner-grow text-primary"></div>
+         <div class="spinner-grow text-primary"></div>
+
+         <button class="btn btn-primary">
+            <span class="spinner-border spinner-border-sm"></span> Book NOw
+         </button>
+</div>
+
+</body>
+</html>

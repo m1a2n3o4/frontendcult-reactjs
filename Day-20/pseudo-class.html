@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Disply</title>
+</head>
+<style>
+    div {
+        height: 200px;
+        width: 200px;
+        float: left;
+        margin-left: 20px;
+    } 
+
+    .one {
+        background-color: #00539C;
+    }
+
+    .two {
+        background-color: #EEA47F;
+    }
+
+    .three {
+        background-color: black;
+    }
+
+    .one:hover {
+        background-color: #101820;
+        cursor: pointer;
+
+    }
+
+    .two:hover {
+        background-color: #FEE715;
+        cursor: pointer;
+
+    }
+
+    .three:hover {
+        background-color: #990011;
+        cursor: pointer;
+    }
+
+   .my-input {
+    width: 20%;
+    height: 15px;
+
+   }
+
+   .my-input:hover {
+    background-color: #990011;
+    width: 40%;
+    height: 20px;
+    cursor: pointer;
+   }
+
+   .book-now {
+    border: none;
+    color: white;
+    width: 150px;
+    height: 20px;
+    background-color: #990011;
+   }
+
+   .in1:hover {
+     
+        display: block;
+      
+   }
+
+   #b {
+    display: none;
+}
+
+#content:hover~#b{
+    display: block;
+}
+
+.show-o:hover~.div-s {
+        display : block;
+    }
+</style>
+<body>
+    <!----
+    Pesudo -  class (Hover,)
+
+    selector {
+        property : value;
+    }
+
+    
+    -->
+    <div class="one"></div>
+<div class="two"></div>
+<div class="three"></div> <br>
+<input type="text" class="my-input" /> <br>
+
+ <input type="text" value="1" class="in1" style="width: 10px; color: black; border: 1px solid green;"/>
+
+<div class="book-now" >
+    <input style="display: none;" type="button" value="Book-tickets" class="book-now"/>
+</div>
+
+
+<div id='content'>
+    <div id='a'>
+        Hover me
+    </div>
+</div>
+<div id='b'>
+   Show me
+</div>
+<div class="show-o">
+    Hover me:
+</div>
+<div class="div-s" style="display: none;">
+  Hey i was theri
+</div>
+</body>
+
+
+</html>
