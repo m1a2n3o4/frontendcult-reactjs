@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS - Nav - Navigation Bar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!---
+        -> Nav (nav, nav-item, nav-link, justify-content-center/end, flex-column(virticle navigation))
+    -->
+    <div class="container mt-3">
+        <ul class="nav">
+            <li class="nav-item ">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+            </li>
+        </ul>
+
+        <!--- Nav Tabs-->
+        <ul class="nav nav-tabs">
+            <li class="nav-item ">
+                <a class="nav-link" data-bs-toggle="tab" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#contact">Contact Us</a>
+            </li>
+        </ul>
+
+            <!-- Tabs Content/data-->
+            <div class="tab-content">
+            <div class="tab-pane container fade active" id="home">
+                <h1>Welcome to my web site</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ipsam dolorum nulla modi. Necessitatibus blanditiis hic autem magni? Cumque et nostrum dolorem! Dolor dignissimos numquam quis molestiae nulla fugiat recusandae!</p>
+            </div>
+            <div class="tab-pane container fade" id="about">
+                <h1>We provide values data</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ipsam dolorum nulla modi. Necessitatibus blanditiis hic autem magni? Cumque et nostrum dolorem! Dolor dignissimos numquam quis molestiae nulla fugiat recusandae!</p>
+            </div>
+            <div class="tab-pane container fade" id="service">
+                <h1>Web Dev, Hostong, Data migration</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime ipsam dolorum nulla modi. Necessitatibus blanditiis hic autem magni? Cumque et nostrum dolorem! Dolor dignissimos numquam quis molestiae nulla fugiat recusandae!</p>
+
+            </div>
+            <div class="tab-pane container fade" id="contact">
+                <h1>Please contact at : 999999999999</h1>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--
+        -> Progress Bar.
+        -> Collapse.
+        -> Collapse -> Accordian 
+        -> Nav
+        -> Navigation Bar.
+    -->
+    <div class="container">
+        <div class="progress mt-3" style="height: 25px;">
+            <div class="progress-bar" style="width: 90%;">Profile stats : 90%</div>
+        </div>
+
+        <div class="progress mt-3" style="height: 25px;">
+            <div class="progress-bar bg-success" style="width: 60%;">Profile stats : 60%</div>
+        </div>
+
+        <div class="progress mt-3" style="height: 25px;">
+            <div class="progress-bar bg-danger" style="width: 30%;">Profile stats : 30%</div>
+        </div>
+
+        <div class="progress mt-3" style="height: 25px;">
+            <div class="progress-bar bg-success progress-bar-striped" style="width: 30%;">Profile stats : 30%</div>
+        </div>
+
+        <div class="progress mt-3" style="height: 25px;">
+            <div class="progress-bar bg-danger progress-bar-striped" style="width: 30%;">Profile stats : 30%</div>
+        </div>
+
+        <div class="progress mt-3" style="height: 25px;">
+            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 70%;">Profile stats : 30%</div>
+        </div>
+
+
+        <!-- Collapse-->
+
+        <button class="btn btn-danger mt-3" data-bs-toggle="collapse" data-bs-target="#mycol">Show me text</button>
+        <div class="collapse" id="mycol">
+            <table class="table table-bordered mt-3">
+                <tr>
+                    <th>Tickets</th>
+                    <th>Name</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Manu</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Hello</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Collapse/Accordian-->
+        <div id="accordian">
+            <div class="card">
+                <div class="card-header">
+                    <a data-bs-toggle="collapse" href="#module1" class="btn" >Module#1 - Intro to Software</a>
+                </div>
+                <div id="module1" class="collapse show" data-bs-parent="#accordian">
+                    <div class="card-body">
+                        <p>What is internet, and HTTPS ?
+                        As a software developer - you should know the basic's of internet and how Https works.</p>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a data-bs-toggle="collapse" href="#module2" class="btn" >Module#2 - Intro and elements</a>
+                </div>
+                <div id="module2" class="collapse show" data-bs-parent="#accordian">
+                    <div class="card-body">
+                        
+                                Introduction
+                                Heading Elements and Paragraphs
+                                Class, Id, Iframes, FilePaths
+                                Links, Images, Lists, Block & inline.
+                    </div>
+                </div>    
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a data-bs-toggle="collapse" href="#module3" class="btn" >Module#3 - Jailer</a>
+                </div>
+                <div id="module3" class="collapse show" data-bs-parent="#accordian">
+                    <div class="card-body">
+                        
+                                Introduction
+                                Heading Elements and Paragraphs
+                                Class, Id, Iframes, FilePaths
+                                Links, Images, Lists, Block & inline.
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+        <!--Navigation-->
+        
+    </div>
+</body>
+</html>
